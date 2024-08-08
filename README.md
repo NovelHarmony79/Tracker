@@ -51,4 +51,8 @@ Join our community of developers creating universal apps.
 
 ## Creator's Note:
 
+This app was made to track the location of the user without the need to stay on a single tab, essentially allowing the app to track the user in the background. 
 
+The app will then try to connect to one of our Raspberry Pi's that is running a hotspot via Flask server. It will then send the location data of the user to the Raspberry Pi.
+
+So far, only the location tracking function is completely finished. In the future, I would like for the data transferring via hotspot to be finished. The code that I have written for the data sharing is only a basis on what the code should look like, and is not actually functional. In the future, this code should be improved until functional, before working on any extra features.
